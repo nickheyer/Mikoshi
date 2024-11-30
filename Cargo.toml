@@ -1,0 +1,14 @@
+[package]
+name = "mikoshi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.28.1"
+gl = "0.14.0"
+nix = { version = "0.29.0", features = ["process", "term", "fs", "ioctl", "signal"] }
+sdl2 = { version = "0.37.0", features = ["ttf", "image"] }
+vte = "0.13.0"
+wgpu = "23.0.1"
+winit = "0.30.5"
+
